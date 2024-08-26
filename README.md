@@ -18,24 +18,32 @@ The Splunk analysis project aimed to explore the capabilities of Splunk as a pow
 ## Steps
 
 ### 1. **Data Ingestion**
-   - A screenshot showing the data ingestion process in Splunk.
+   - Screenshots showing the data ingestion process in Splunk.
+![Screenshot 2024-08-26 at 3 57 15 PM](https://github.com/user-attachments/assets/92935f20-3822-4cb2-8f7b-3926963a75c1)
+![Screenshot 2024-08-26 at 4 06 04 PM](https://github.com/user-attachments/assets/a08d8ca9-2f5f-42e6-a849-d17bdeb46f2b)
+![Screenshot 2024-08-26 at 4 06 45 PM](https://github.com/user-attachments/assets/a9528c47-8fda-4cd8-a9e0-4a30ed27d637)
+![Screenshot 2024-08-26 at 4 07 12 PM](https://github.com/user-attachments/assets/c8f602b8-4aca-466d-aa63-5dcb39778510)
+![Screenshot 2024-08-26 at 4 07 41 PM](https://github.com/user-attachments/assets/09ec2775-05c6-422b-914c-b47200a5e222)
 
-   *Ref 1: Data Ingestion Process*
+   *Ref 1-5: Data Ingestion Process*
 
 ### 2. **Creating Dashboards**
-   - A screenshot of a dashboard created in Splunk illustrating key metrics.
+   - A screenshot of a dashboard created in Splunk illustrating metrics.
+![Screenshot 2024-08-26 at 4 18 42 PM](https://github.com/user-attachments/assets/e2d06111-900f-4123-ac97-73e95e000f5b)
 
-   *Ref 2: Dashboard Metrics* 
+   *Ref 6: Dashboard Metrics* 
 
 ### 3. **Search Queries**
-   - A screenshot showcasing a complex SPL query used for data analysis.
+   - A screenshot showcasing a complex SPL query used for data analysis to find the ip address of the client with the highest count using an iPad.
+![Screenshot 2024-08-26 at 4 22 34 PM](https://github.com/user-attachments/assets/64d2b318-cd4d-44c9-a568-405a2ce78f41)
 
-   *Ref 3: Example SPL Query*
+   *Ref 7: Example SPL Query*
 
 ### 4. **Event Correlation**
    - A screenshot demonstrating event correlation results in Splunk.
+![Screenshot 2024-08-26 at 4 29 55 PM](https://github.com/user-attachments/assets/92d9b325-a435-4fb7-834e-96c262aafe5f)
 
-   *Ref 4: Event Correlation Results*
+   *Ref 8: Event Correlation Results*
 
 ## Conclusion
 The Splunk analysis project provided an invaluable opportunity to engage with one of the leading platforms in cybersecurity data analysis. Throughout this project, I gained practical experience in data ingestion, dashboard creation, and advanced querying using SPL. 

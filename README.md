@@ -61,6 +61,50 @@ The Splunk analysis project aimed to explore the capabilities of Splunk as a pow
 
    *Ref 8: Event Correlation Results*
 
+
+## Proactive Security Implementations
+
+### Overview
+In addition to data analysis and incident response, implementing proactive security measures is crucial for organizations. This section explores strategies for detecting past, current, and future threats.
+
+### Threat Detection and Analysis
+- Historical Data Analysis: Utilize Splunk to analyze historical logs to identify patterns in past security incidents. This helps organizations understand attacker tactics and improve defenses.
+
+- Current Threat Monitoring: Implement real-time monitoring dashboards in Splunk that display current security events, enabling quick identification of potential threats.
+
+   ![Real-time monitoring dashboard](https://www.splunk.com/content/dam/splunk2/en_us/images/solutions/security-monitoring/extensive-detections-dashboard-embelishment.jpg)
+
+### Predictive Analytics
+- Machine Learning Models: Splunk integrates with machine learning tools for sophisticated predictive analytics. It is difficult to detect unknown threats like Advanced Persistent Threats (APTs) and insider threats, which traditional methods often overlook. Splunk User Behavior Analytics (UBA) utilizes unsupervised machine learning to identify unusual behavior patterns that help detect these threats effectively, allowing SOC analysts to focus on critical risks.
+
+   Key Points
+
+   - High Volume of Events: SOCs struggle with a large number of benign security events, overwhelming limited staff.
+   - Unknown Threats: Traditional detection methods are inadequate for evolving threats like APTs and insider threats.
+   - Splunk UBA: Employs unsupervised machine learning to profile normal user behavior and identify anomalies indicative of potential threats.
+   - Anomaly Detection: Splunk UBA generates actionable insights from anomalies, facilitating the identification of threats through various models.
+   - Personalized Security Context: The system provides customizable detection rules and watchlists, enhancing the precision of threat detection.
+
+   - Link: [[Machine learning in cybersecurity with Splunk](https://www.splunk.com/en_us/blog/security/elevating-security-intelligence-with-splunk-uba-s-machine-learning-models.html)]
+
+- Anomaly Detection: Utilize Splunk’s capabilities for anomaly detection to identify deviations from normal behavior, which can indicate emerging threats.
+
+   ![UBA Content Overview](https://www.splunk.com/content/dam/splunk-blogs/images/en_us/2024/03/uba-content-overview-1.png)
+
+### Continuous Improvement
+- Feedback Loop: Establish a feedback loop based on findings from incident analysis. Use insights gained from past incidents to update security policies and procedures.
+
+- Regular Audits: It is recommended to perform regular audits of security logs and systems to ensure compliance and identify any vulnerabilities that may have been overlooked. Knowing what is happening in your system is vital to keeping it secure.
+
+   - Link: [How to use audit logs and use cases](https://www.splunk.com/en_us/blog/learn/audit-logs.html)
+
+### Case Study
+- Gatwick Airport: Operational Insights with Splunk
+   -    Challenges: Gatwick Airport needed to make sense of huge amounts of uncorrelated data from disparate sources, which required a full, live overview of airport operations.
+   -    Results: By giving more teams at Gatwick access to data, Splunk has improved efficiency and lowered costs while empowering the team.
+  
+   - Link: [Gatwick Airport: Operational Insights with Splunk](https://www.splunk.com/en_us/customers/success-stories/gatwick-airport.html)
+
 ## Conclusion
 The Splunk analysis project provided an invaluable opportunity to engage with one of the leading platforms in cybersecurity data analysis. Throughout this project, I gained practical experience in data ingestion, dashboard creation, and advanced querying using SPL. 
 
